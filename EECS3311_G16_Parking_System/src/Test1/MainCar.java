@@ -86,6 +86,7 @@ class Car {
 		public Car build() {
 			return new Car(this);
 		}
+	}
 }
 
 
@@ -93,7 +94,7 @@ class Car {
 
 public class MainCar {
 	public static void main(String[] args) {
-		
+		System.out.println("Car builders");
 		
 	}
 
